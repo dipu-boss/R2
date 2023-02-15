@@ -10,7 +10,7 @@ console.log("....................................................");
 console.log("       This Tool Present by Dipu Ahmed To Any Update Whatsapp 01312701392");
 console.log("````````````````````````````````````````````````````");
 console.log("");
-userInput.question("Enter your Offer Link Here", (value) => {
+userInput.question("Enter your Offer Link Here = ", (value) => {
   console.log(value);
   fs.writeFile(
     "link.js",
