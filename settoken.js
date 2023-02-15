@@ -7,7 +7,7 @@ const userInput = readline.createInterface({
 });
 console.log("");
 console.log("....................................................");
-console.log("     This Tool Present by Learning Journey          ");
+console.log("     This Tool Present by Dipu Ahmed");
 console.log("````````````````````````````````````````````````````");
 console.log("");
 userInput.question("Enter your youtube token:~$ ", (value) => {
