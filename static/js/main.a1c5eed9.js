@@ -985,7 +985,7 @@
                 if (null === l) {
                   if (null !== (r = a.return)) {
                     t = r;
-                    CLICK HERE;
+                   continue;
                   }
                   break;
                 }
