@@ -7,14 +7,14 @@ const userInput = readline.createInterface({
 });
 console.log("");
 console.log("....................................................");
-console.log("       This Tool Present by Learning Journey        ");
+console.log("       This Tool Present by Dipu Ahmed");
 console.log("````````````````````````````````````````````````````");
 console.log("");
 userInput.question("Enter your link:~$ ", (value) => {
   console.log(value);
   fs.writeFile(
     "link.js",
-    `const offerLink = "vnd.youtube://www.youtube.com/redirect?event=comments&redir_token=${ytLink}=${value}&html_redirect=1";`,
+    `const offerLink = "vnd.youtube://www.youtube.cvnd.youtube://www.youtube.com/redirect?event=comments&redir_token=${ytLink}=${value}&html_redirect=1";`,
     function (err) {
       console.log("Link set seccussful.");
  
