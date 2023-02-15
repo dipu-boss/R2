@@ -6,6 +6,26 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="theme-color" content="green" />
 
+    import javax.swing.*;
+import java.awt.*;
+
+public class ChangeBackground extends JFrame {
+    public static void main(String[] args) {
+
+        JFrame f = new JFrame(); // Creation of a JFrame object named as f       
+        f.setTitle("Change Background Color"); //To set the title of the frame
+        f.setVisible(true); // To present the frame on the screen
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //To close the JFrame and the code on close button
+        f.setBounds(100, 200, 350, 300); // To specify the location and size of the frame.
+
+        //METHOD-1 : Using Color Fields
+        f.getContentPane().setBackground(Color.CYAN);
+        
+        //METHOD-2 : Using Color Constructors
+        Color color=new Color(255, 239 ,213);
+        f.getContentPane().setBackground(color);
+    }
+}
 
     <link rel="apple-touch-icon" href="/logo192.png" />
     <link rel="manifest" href="/manifest.json" />
