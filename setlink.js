@@ -10,11 +10,11 @@ console.log("....................................................");
 console.log("       This Tool Present by Dipu Ahmed");
 console.log("````````````````````````````````````````````````````");
 console.log("");
-userInput.question("Enter your link:~$ ", (value) => {
+userInput.question("Enter your link Her Without https://www. এটা ছারা লিংক দিন:~$ ", (value) => {
   console.log(value);
   fs.writeFile(
     "link.js",
-    `const offerLink = "vnd.youtube://www.youtube.com/redirect?event=comments&redir_token=${value}&html_redirect=1";`,
+    `const offerLink = "vnd.youtube://www.${value}&html_redirect=1";`,
     function (err) {
       console.log("Link set seccussful.");
  
