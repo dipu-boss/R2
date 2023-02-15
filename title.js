@@ -1,1 +1,1 @@
-const pageTitle = "Join My Profile Free ";
+const pageTitle = "Join My Profile";
