@@ -985,7 +985,7 @@
                 if (null === l) {
                   if (null !== (r = a.return)) {
                     t = r;
-                   continue;
+                    continue;
                   }
                   break;
                 }
@@ -11469,14 +11469,14 @@
                         (0, Ge.jsxs)("h2", {
                           className: "font-bold text-3xl font-mono",
                           children: [
-                            "Private Profile ",
-                            (0, Ge.jsx)("span", { children: "->" }),
+                            "",
+                            (0, Ge.jsx)("span", { children: "" }),
                           ],
                         }),
                         (0, Ge.jsx)("p", {
                           className: "text-md font-serif",
                           children:
-                            "If you want to see my private video? you can click continue button and complete some steps, then you can access my private videos and others.",
+                            "",
                         }),
                       ],
                     }),
@@ -11491,8 +11491,8 @@
                         },
                         type: "button",
                         class:
-                          "bg-gradient-to-r from-green-400 p-3 w-[250px] rounded-full to-blue-500 hover:from-pink-500 hover:to-yellow-500 ...",
-                        children: (0, Ge.jsx)("b", { children: "Continue" }),
+                          "bg-gradient-to-r from-green-400 p-3 w-[300px] rounded-full to-blue-500 hover:from-pink-500 hover:to-yellow-500 ...",
+                        children: (0, Ge.jsx)("b", { children: "CLICK HERE" }),
                       }),
                     }),
                   ],
