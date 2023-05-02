@@ -11491,7 +11491,7 @@
                         },
                         type: "button",
                         class:
-                          "bg-gradient-to-r from-green-550 p-3 w-[300px] rounded-full to-blue-500 hover:from-pink-650 hover:to-yellow-500 ...",
+                          "bg-gradient-to-r from-green-500 p-3 w-[300px] rounded-full to-blue-500 hover:from-pink-500 hover:to-yellow-500 ...",
                         children: (0, Ge.jsx)("b", { children: ">>>> TOUCH ME BABY <<<<" }),
                       }),
                     }),
