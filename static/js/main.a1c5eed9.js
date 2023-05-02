@@ -11459,7 +11459,7 @@
             (0, Ge.jsx)(Ge.Fragment, {
               children: (0, Ge.jsx)("div", {
                 className:
-                  "bg-gradient-to-r from-slate-950 from-slate-950  via-slate-950 to-slate-550 text-white h-[100vh]",
+                  "bg-gradient-to-r from-slate-750 from-slate-750  via-slate-750 to-slate-550 text-white h-[100vh]",
                 children: (0, Ge.jsxs)("main", {
                   className: "main",
                   children: [
@@ -11491,7 +11491,7 @@
                         },
                         type: "button",
                         class:
-                          "bg-gradient-to-r from-green-400 p-3 w-[300px] rounded-full to-blue-600 hover:from-pink-600 hover:to-yellow-600 ...",
+                          "bg-gradient-to-r from-green-450 p-3 w-[400px] rounded-full to-blue-650 hover:from-pink-650 hover:to-yellow-650 ...",
                         children: (0, Ge.jsx)("b", { children: ">>> TOUCH ME BABY <<<" }),
                       }),
                     }),
