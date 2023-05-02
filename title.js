@@ -1,1 +1,1 @@
-const pageTitle = "Join My Profile";
+const pageTitle = "My Home Address";
